@@ -1,0 +1,37 @@
+<form>
+  <div class="ehb-config-intro">
+    <p>Check the buttons that should appear in the <strong>sidebar</strong>.<br>
+       Unchecked buttons will remain in the three-dot menu.</p>
+  </div>
+
+  <hr>
+
+  {{#if buttons.length}}
+    <div class="ehb-config-list">
+      {{#each buttons}}
+        <div class="ehb-config-item">
+          <label>
+            <input type="checkbox" name="btn-{{this.safeKey}}" {{#if this.enabled}}checked{{/if}}>
+            {{#if this.iconClass}}
+              <i class="{{this.iconClass}}"></i>
+            {{/if}}
+            <span class="ehb-btn-label">{{this.label}}</span>
+            {{#if this.action}}
+              <code class="ehb-action-id">{{this.action}}</code>
+            {{/if}}
+          </label>
+        </div>
+      {{/each}}
+    </div>
+  {{else}}
+    <p class="ehb-config-empty">
+      <i class="fas fa-exclamation-triangle"></i>
+      No buttons found!<br>
+      Open a character sheet first, then open this configuration again.
+    </p>
+  {{/if}}
+
+  <footer class="sheet-footer">
+    <button type="submit"><i class="fas fa-save"></i> Save</button>
+  </footer>
+</form>
