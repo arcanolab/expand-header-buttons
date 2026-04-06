@@ -8,12 +8,8 @@
 A Foundry VTT v13 module that creates a vertical sidebar on the left side of sheets, exposing buttons normally hidden in the three-dot overflow menu as always-visible, clickable icons.
 
 ![Preview]
-expanded buttons on the side
-(<img width="394" height="463" alt="preview01" src="https://github.com/user-attachments/assets/e541ac5f-b55d-43b7-908c-a325ab9c60dd" />)
-settings
-(<img width="394" height="463" alt="preview02" src="https://github.com/user-attachments/assets/71d8a9e2-c8ae-48d3-aea7-5aea29edb2c6" />)
-choosing which buttons appear next to
-(<img width="394" height="463" alt="preview03" src="https://github.com/user-attachments/assets/1f3b5097-107c-4214-8ebc-51c067dfe516" />)
+expanded buttons on the side / settings / choosing which buttons appear next to
+<img width="1180" height="463" alt="preview" src="https://github.com/user-attachments/assets/16d41f44-9786-4414-a106-a8b1775600a2" />
 
 ## Features
 
