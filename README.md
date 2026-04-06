@@ -2,7 +2,7 @@
 # Expand Header Buttons
 
 ![Foundry VTT](https://img.shields.io/badge/Foundry%20VTT-v13-informational)
-![Version](https://img.shields.io/badge/version-6.1.0-green)
+![Version](https://img.shields.io/badge/version-1.0-green)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
 A Foundry VTT v13 module that creates a vertical sidebar on the left side of sheets, exposing buttons normally hidden in the three-dot overflow menu as always-visible, clickable icons.
