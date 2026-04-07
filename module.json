@@ -2,7 +2,7 @@
   "id": "expand-header-buttons",
   "title": "Expand Header Buttons",
   "description": "Creates a vertical sidebar on the left side of sheets with buttons normally hidden in the three-dot overflow menu. Includes settings for GM-only mode and per-button toggle.",
-  "version": "1.0",
+  "version": "v1.0",
   "compatibility": {
     "minimum": "13",
     "verified": "13.348",
